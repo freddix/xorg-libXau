@@ -1,11 +1,11 @@
 Summary:	Authorization Protocol for X
 Name:		xorg-libXau
-Version:	1.0.7
-Release:	3
+Version:	1.0.8
+Release:	1
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXau-%{version}.tar.bz2
-# Source0-md5:	2d241521df40d27034413436d1a1465c
+# Source0-md5:	685f8abbffa6d145c0f930f00703b21b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
