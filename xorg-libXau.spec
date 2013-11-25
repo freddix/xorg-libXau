@@ -1,7 +1,7 @@
 Summary:	Authorization Protocol for X
 Name:		xorg-libXau
 Version:	1.0.8
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXau-%{version}.tar.bz2
@@ -63,7 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXau.so
-%{_libdir}/libXau.la
 %{_includedir}/X11/Xauth.h
 %{_pkgconfigdir}/xau.pc
 %{_mandir}/man3/*.3x*
